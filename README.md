@@ -126,3 +126,14 @@ This project was created as part of a technical preparation for a junior-level r
 - Docker + docker-compose setup
 - Sensor status indicators (online/offline)
 - Historical data export to CSV or JSON
+
+## 👨‍💻 Author
+
+**Cristian [cris1277]**   
+🔗 [GitHub](https://github.com/cris1277)  
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
