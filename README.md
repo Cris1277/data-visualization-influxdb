@@ -2,6 +2,8 @@
 
 This is a full-stack demo project that simulates a real-time data monitoring system using **Node.js**, **InfluxDB**, and **React**. It was built as a learning project to demonstrate skills in backend development, time-series data processing, and frontend data visualization — especially for scientific and sensor-based applications.
 
+> 🔗 **Live Demo**: [https://stirring-licorice-c513d5.netlify.app/](https://stirring-licorice-c513d5.netlify.app/)
+
 ## 🔧 Technologies Used
 
 - **Backend**: Node.js, Express, InfluxDB Client, dotenv
