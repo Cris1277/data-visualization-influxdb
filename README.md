@@ -127,6 +127,18 @@ This project was created as part of a technical preparation for a junior-level r
 - Sensor status indicators (online/offline)
 - Historical data export to CSV or JSON
 
+## ⚠️ Known Limitation & Explanation
+
+When visualizing **all sensors at once**, some timestamps on the X-axis may appear **duplicated or misaligned**. This happens because each sensor generates data independently, and multiple readings may share the exact same timestamp (e.g., `2:51:00` from several sensors). Chart.js renders those repeated timestamps as-is, which may lead to overlapping or jagged visuals.
+
+**Why it was left this way:**  
+To keep the code simple and easy to explain during interviews, I chose not to normalize timestamps or fill missing values with nulls across all datasets. Instead, users can filter by a single sensor to view a clean, aligned chart.
+
+**How it could be improved:**  
+In a more advanced version, I could normalize the X-axis to a common time base (e.g., 1-point every 5 seconds), and align all sensors to it. That would involve filling gaps with `null` values to keep each dataset aligned, producing a cleaner and more accurate multi-line chart.
+
+This trade-off was intentional, balancing clarity with functionality for a demo project.
+
 ## 👨‍💻 Author
 
 **Cristian [cris1277]**   
