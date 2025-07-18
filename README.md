@@ -127,7 +127,7 @@ This project was created as part of a technical preparation for a junior-level r
 - Sensor status indicators (online/offline)
 - Historical data export to CSV or JSON
 
-## ⚠️ Known Limitation & Explanation
+##  Known Limitation & Explanation
 
 When visualizing **all sensors at once**, some timestamps on the X-axis may appear **duplicated or misaligned**. This happens because each sensor generates data independently, and multiple readings may share the exact same timestamp (e.g., `2:51:00` from several sensors). Chart.js renders those repeated timestamps as-is, which may lead to overlapping or jagged visuals.
 
